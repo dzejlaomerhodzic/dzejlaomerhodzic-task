@@ -1,0 +1,10 @@
+# Frontend
+
+## Setup
+
+1. Simply open the `index.html` file in your browser to view the application.
+
+## Note
+
+Ensure the backend is running on the default port (8080) for the frontend to communicate with it. Ensure the port for frontend is correctly inputed in backend.
+
