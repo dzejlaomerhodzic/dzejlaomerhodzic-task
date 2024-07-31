@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>User Management</h1>
+  <div class="form-container">
+    <h2>Add User</h2>
+    <form id="userForm">
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" id="lastName" placeholder="Last Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="phoneNumber" placeholder="Phone Number" required>
+      <button type="submit">Add User</button>
+    </form>
+  </div>
+  <div class="users-container">
+    <h2>Users</h2>
+    <input type="text" id="searchInput" placeholder="Search users...">
+    <button id="viewAllUsersBtn">Search</button>
+    <button id="viewAllUsersBtn">View All Users</button>
+    <ul id="userList"></ul>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
