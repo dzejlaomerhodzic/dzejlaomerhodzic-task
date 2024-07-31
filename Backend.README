@@ -1,0 +1,13 @@
+# Backend
+
+## Prerequisites
+- IntelliJ IDEA
+- Java 17
+- Maven
+
+## Setup
+
+1. Navigate to the `backend` directory:
+   bash
+   cd backend
+2. Build the project and run it making sure it is in port 8080 // mvn spring-boot:run
